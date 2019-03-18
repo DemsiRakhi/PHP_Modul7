@@ -38,10 +38,10 @@ Hasil Form Update
 ![ALT EXT](https://github.com/DemsiRakhi/PHP_Modul7/blob/master/Modul7/Matakuliah/SSformupdate.PNG)
 Hasil Update
 ![ALT EXT](https://github.com/DemsiRakhi/PHP_Modul7/blob/master/Modul7/Matakuliah/SSupdate.PNG)
-Hasil Read 2
-![ALT EXT](https://github.com/DemsiRakhi/PHP_Modul7/blob/master/Modul7/Matakuliah/SSread1.PNG)
 Hasil Delete
 ![ALT EXT](https://github.com/DemsiRakhi/PHP_Modul7/blob/master/Modul7/Matakuliah/SSdelete.PNG)
+Hasil Read 2
+![ALT EXT](https://github.com/DemsiRakhi/PHP_Modul7/blob/master/Modul7/Matakuliah/SSread1.PNG)
 
 Modul 7 Bagian 4
 Hasil Form Login

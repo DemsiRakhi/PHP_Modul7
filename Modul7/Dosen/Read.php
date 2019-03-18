@@ -49,3 +49,34 @@ $num = mysqli_num_rows($result);
     </table>
 </body>
 </html>
+
+<?php
+if($num > 0)
+{
+    $no = 1;
+    while ($data = mysqli_fetch_assoc($result)) { ?>
+       <tr>
+          <td> <?php echo $no; ?> </td>
+          <td> <?php echo $data['kode'] ?> </td>
+          <td> <?php echo $data['nama_matkul'] ?> </td>
+          <td> <?php echo $data['sks'] ?> </td>
+          <td> <?php echo $data['semester']; ?> </td>
+          <?php
+             if($data['nama_dosen'] != NULL )
+             {echo $data['nama_dosen']; }
+             else { echo "NULL"; }
+          ?>
+          <td>
+             <a href="form-update.php?kode=<?php echo $data['kode']; ?>">Edit</a> |
+             <a href="delete.php?kode=<?php echo $data['kode']; ?>"> onclick="return confirm('Anda yakin ingin menghapus data?')"> Hapus</a>
+          </td>
+       </tr>
+    <?php
+    $no++;
+    }
+}
+else
+{
+    echo "<tr> <td colspan='7'> Tidak ada data </td></tr>";
+}
+?>

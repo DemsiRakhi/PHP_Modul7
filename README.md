@@ -1,4 +1,5 @@
 # PHP_Modul7
+Modul 7 Bagian 1 & 2
 Form Create
 ![ALT EXT](https://github.com/DemsiRakhi/PHP_Modul7/blob/master/Modul7/SSFormCreate.PNG)
 Hasil Create
@@ -25,3 +26,25 @@ Dengan menambahkan parameter yang bersifat opsional, jika tidak ditentukan, maka
 " $query = "UPDATE Dosen SET nama_dosen = '$nama_dosen', telp = '$telp' WHERE ID = $id_dosen"; "
 5. Berikan code query untuk menghapus sebuah data yang ada pada ke database?
 " $query = "DELETE FROM Dosen WHERE ID = $id_dosen"; "
+
+Modul 7 Bagian 3
+Hasil Form Create
+![ALT EXT](https://github.com/DemsiRakhi/PHP_Modul7/blob/master/Modul7/Matakuliah/SSformcreate.PNG)
+Hasil Create
+![ALT EXT](https://github.com/DemsiRakhi/PHP_Modul7/blob/master/Modul7/Matakuliah/SScreate.PNG)
+Hasil Read 1
+![ALT EXT](https://github.com/DemsiRakhi/PHP_Modul7/blob/master/Modul7/Matakuliah/SSread.PNG)
+Hasil Form Update
+![ALT EXT](https://github.com/DemsiRakhi/PHP_Modul7/blob/master/Modul7/Matakuliah/SSformupdate.PNG)
+Hasil Update
+![ALT EXT](https://github.com/DemsiRakhi/PHP_Modul7/blob/master/Modul7/Matakuliah/SSupdate.PNG)
+Hasil Read 2
+![ALT EXT](https://github.com/DemsiRakhi/PHP_Modul7/blob/master/Modul7/Matakuliah/SSread1.PNG)
+Hasil Delete
+![ALT EXT](https://github.com/DemsiRakhi/PHP_Modul7/blob/master/Modul7/Matakuliah/SSdelete.PNG)
+
+Modul 7 Bagian 4
+Hasil Form Login
+![ALT EXT](https://github.com/DemsiRakhi/PHP_Modul7/blob/master/Modul7/login/SSformlogin.PNG)
+Hasil Logout
+![ALT EXT](https://github.com/DemsiRakhi/PHP_Modul7/blob/master/Modul7/login/SSread.PNG)
